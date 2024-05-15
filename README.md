@@ -1,1 +1,2 @@
-# sample-flask-auth
+# Sample Flask Auth
+pip instal -r requirements.txt
