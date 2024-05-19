@@ -10,3 +10,8 @@ db.create_all()
 db.session()
 <sqlalchemy.orm.session.Session object at 0x7fcea8448ac0>
 db.session.commit()
+
+
+>>> user = User(username="admin",password="123")
+>>> db.session.add(user)
+>>> db.session.commit()
