@@ -12,6 +12,11 @@ db.session()
 db.session.commit()
 
 
+Criar tabela
+    db.create_all()
+    db.session.commit()
+
+
 >>> user = User(username="admin",password="123")
 >>> db.session.add(user)
 >>> db.session.commit()
